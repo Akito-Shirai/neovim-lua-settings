@@ -1,0 +1,12 @@
+# plugin manager
+/site/
+/plugin/packer_compiled.lua
+
+# cache / swap
+/.cache/
+/shada/
+/undo/
+/swap/
+
+# OS
+.DS_Store

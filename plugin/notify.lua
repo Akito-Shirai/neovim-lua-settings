@@ -1,0 +1,25 @@
+-- local notify = require("notify")
+--
+-- notify.setup({
+--   -- 通知の背景色 (完全透明時に基準として使われる色)
+--   background_colour = "#1e222a",
+--   -- 通知が自動的に消えるまでの時間 (ミリ秒単位)
+--   timeout = 3000,
+--   -- 通知の表示順。trueの場合、上から下へ通知が表示されます
+--   top_down = true,
+--   -- アニメーションのスタイル。 "fade" の他に "slide" や "static" も使用可能です
+--   stages = "fade",
+--   -- 通知ウィンドウの最大幅。nilの場合は自動調整
+--   max_width = nil,
+--   -- 通知ウィンドウの最大高さ。nilの場合は自動調整
+--   max_height = nil,
+--   -- 各通知レベルに対応するアイコン設定
+--   icons = {
+--     ERROR = "",
+--     WARN  = "",
+--     INFO  = "",
+--     DEBUG = "",
+--     TRACE = "✎",
+--   },
+-- })
+--
