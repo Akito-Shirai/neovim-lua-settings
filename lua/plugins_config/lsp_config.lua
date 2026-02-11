@@ -2,7 +2,10 @@
 local mason = require("mason")
 local mason_lspconfig = require("mason-lspconfig")
 local nvim_lsp = require("lspconfig")
-local null_ls = require("null-ls")
+local ok_null_ls, null_ls = pcall(require, "none-ls")
+if not ok_null_ls then
+	null_ls = require("null-ls")
+end
 local on_attach = require("plugins_config.on_attach").on_attach
 local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
@@ -60,37 +63,49 @@ mason_lspconfig.setup({
 	},
 })
 
--- 4. null-ls (フォーマッタ/リンタ) の設定
+-- 4. none-ls (フォーマッタ/リンタ) の設定
+local sources = {}
+local function add_source(source)
+	if source then
+		table.insert(sources, source)
+	end
+end
+
+-- Python
+add_source(null_ls.builtins.formatting.black.with({
+	command = "/Users/akito/.local/share/nvim/mason/bin/black",
+	extra_args = { "--fast" },
+}))
+add_source(null_ls.builtins.formatting.isort)
+local flake8 = null_ls.builtins.diagnostics.flake8
+if flake8 and vim.fn.executable("flake8") == 1 then
+	add_source(flake8)
+end
+
+-- Lua
+add_source(null_ls.builtins.formatting.stylua)
+local luacheck = null_ls.builtins.diagnostics.luacheck
+if luacheck and vim.fn.executable("luacheck") == 1 then
+	add_source(luacheck.with({
+		extra_args = { "--globals", "vim" },
+	}))
+end
+
+-- Shell
+add_source(null_ls.builtins.formatting.shfmt)
+
+-- JavaScript/TypeScript
+add_source(null_ls.builtins.formatting.prettier)
+
+-- YAML
+add_source(null_ls.builtins.diagnostics.yamllint)
+
 null_ls.setup({
 	capabilities = capabilities,
 	debug = true,
 	on_attach = on_attach,
 	diagnostics_format = "[#{m}] #{s} (#{c})",
-	sources = {
-		-- Python
-		null_ls.builtins.formatting.black.with({
-			command = "/Users/akito/.local/share/nvim/mason/bin/black",
-			extra_args = { "--fast" },
-		}),
-		null_ls.builtins.formatting.isort,
-		null_ls.builtins.diagnostics.flake8,
-
-		-- Lua
-		null_ls.builtins.formatting.stylua,
-		-- null_ls.builtins.diagnostics.luacheck,
-		null_ls.builtins.diagnostics.luacheck.with({
-			extra_args = { "--globals", "vim" },
-		}),
-
-		-- Shell
-		null_ls.builtins.formatting.shfmt,
-
-		-- JavaScript/TypeScript
-		null_ls.builtins.formatting.prettier,
-
-		-- YAML
-		null_ls.builtins.diagnostics.yamllint,
-	},
+	sources = sources,
 })
 
 -- 5. Neovim の診断表示設定

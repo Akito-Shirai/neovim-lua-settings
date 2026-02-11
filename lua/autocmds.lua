@@ -15,22 +15,12 @@ if not vim.g.vscode then
   })
 end
 
--- 新規：Pythonファイルの保存前に LSP による自動フォーマットを実行
-local lsp_autoformat_group = vim.api.nvim_create_augroup("LspAutoFormatting", { clear = true })
-autocmd("BufWritePre", {
-  group = lsp_autoformat_group,
-  pattern = "*.py",
-  callback = function()
-    vim.lsp.buf.format({ async = false })
-  end,
-})
-
 -- 共通：カーソル位置の復元（必要ならどちらでも有効）
 autocmd("BufReadPost", {
   group = mygroup,
   pattern = "*",
   callback = function()
-    vim.api.nvim_exec('silent! normal! g`"zv', false)
+    vim.cmd([[silent! normal! g`"zv]])
   end,
 })
 

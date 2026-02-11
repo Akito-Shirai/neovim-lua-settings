@@ -13,3 +13,8 @@
 
 # package
 autoload/
+plugin/packer_compiled.lua
+autoload/**/.git/
+autoload/**/doc/tags
+autoload/**/parser/*.so
+autoload/**/lockfile.json

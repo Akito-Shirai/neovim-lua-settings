@@ -6,9 +6,6 @@ local dapui = require("dapui")
 vim.fn.sign_define("DapBreakpoint", { text = "●", texthl = "DiagnosticError", linehl = "", numhl = "" })
 vim.fn.sign_define("DapStopped", { text = "▶", texthl = "DiagnosticWarn", linehl = "", numhl = "" })
 
--- Python用設定
-require("plugins_config.dap_python")
-
 -- UIセットアップ
 dapui.setup()
 

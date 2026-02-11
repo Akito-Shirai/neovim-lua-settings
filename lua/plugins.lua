@@ -93,13 +93,12 @@ return require("packer").startup(function(use)
 			require("plugins_config.lsp_config")
 		end,
 	})
-	-- null-ls (フォーマット/リンタ)
+	-- none-ls (フォーマット/リンタ)
 	use({
-		"jose-elias-alvarez/null-ls.nvim",
 		"nvimtools/none-ls.nvim",
 		requires = { "nvim-lua/plenary.nvim" },
 		-- config = function ()
-		--   require("null-ls").setup()
+		--   require("none-ls").setup()
 		-- end,
 	})
 	use({ "glepnir/lspsaga.nvim" }) -- LSP UI拡張
