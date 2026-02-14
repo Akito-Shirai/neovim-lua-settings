@@ -63,12 +63,7 @@ return require("packer").startup(function(use)
 	---------------------------------------------------------------------------------
 	-- .config/nvim/lua/plugins_config/lsp_config.lua
 	-- mason
-	use({
-		"williamboman/mason.nvim",
-		config = function()
-			require("mason").setup()
-		end,
-	})
+	use({ "williamboman/mason.nvim" })
 	-- lspconfig
 	use({
 		"neovim/nvim-lspconfig",
@@ -86,37 +81,38 @@ return require("packer").startup(function(use)
 	-- mason-lspconfig
 	use({
 		"williamboman/mason-lspconfig.nvim",
-		-- after = {"mason.nvim", "nvim-lspconfig"},
+		after = { "mason.nvim", "nvim-lspconfig" },
 		requires = { "williamboman/mason.nvim", "neovim/nvim-lspconfig" },
 		config = function()
 			-- require("mason-lspconfig").setup()
 			require("plugins_config.lsp_config")
 		end,
 	})
-	-- null-ls (フォーマット/リンタ)
+	-- null-ls (フォーマット/リンタ) ※ none-ls は null-ls の後継フォーク
 	use({
-		"jose-elias-alvarez/null-ls.nvim",
 		"nvimtools/none-ls.nvim",
 		requires = { "nvim-lua/plenary.nvim" },
-		-- config = function ()
-		--   require("null-ls").setup()
-		-- end,
 	})
-	use({ "glepnir/lspsaga.nvim" }) -- LSP UI拡張
+	use({
+		"glepnir/lspsaga.nvim",
+		config = function()
+			require("plugins_config.lspsaga")
+		end,
+	}) -- LSP UI拡張
 	-- use({"ibhagwan/fzf-lua"})
 	--
 	use({
 		"jay-babu/mason-nvim-dap.nvim",
-		dependencies = {
+		requires = {
 			"williamboman/mason.nvim",
 			"mfussenegger/nvim-dap",
 		},
-		opts = {
-			ensure_installed = {
-				"python",
-			},
-			handlers = {},
-		},
+		config = function()
+			require("mason-nvim-dap").setup({
+				ensure_installed = { "python" },
+				handlers = {},
+			})
+		end,
 	})
 
 	---------------------------------------------------------------------------------
@@ -129,6 +125,9 @@ return require("packer").startup(function(use)
 			"nvim-lua/plenary.nvim",
 			"stevearc/dressing.nvim", -- optional for vim.ui.select
 		},
+		config = function()
+			require("plugins_config.flutter_tools")
+		end,
 	})
 	use({
 		"hrsh7th/nvim-cmp",
@@ -177,7 +176,7 @@ return require("packer").startup(function(use)
 	use({ "nvim-neotest/nvim-nio" }) -- ← これを追加
 	use({
 		"rcarriga/nvim-dap-ui",
-		require = {
+		requires = {
 			"mfussenegger/nvim-dap",
 			"nvim-neotest/nvim-nio",
 		},
@@ -216,7 +215,7 @@ return require("packer").startup(function(use)
 	use({
 		"akinsho/bufferline.nvim",
 		tag = "*",
-		require = "nvim-tree/nvim-web-devicons",
+		requires = "nvim-tree/nvim-web-devicons",
 	})
 
 	use({
@@ -235,7 +234,12 @@ return require("packer").startup(function(use)
 	---------------------------------------------------------------------------------
 	-- Comment
 	---------------------------------------------------------------------------------
-	use({ "numToStr/Comment.nvim" })
+	use({
+		"numToStr/Comment.nvim",
+		config = function()
+			require("plugins_config.comment")
+		end,
+	})
 
 	---------------------------------------------------------------------------------
 	-- Snippet engine
@@ -369,6 +373,77 @@ return require("packer").startup(function(use)
 			vim.keymap.set("v", "<leader>cs", "<cmd>CodexSendSelection<cr>", { desc = "Codex: send selection" })
 			vim.keymap.set("v", "<leader>cr", "<cmd>CodexSendReference<cr>", { desc = "Codex: send reference" })
 			vim.keymap.set("v", "<leader>cc", "<cmd>CodexSendContent<cr>", { desc = "Codex: send content" })
+		end,
+	})
+
+	---------------------------------------------------------------------------------
+	-- Claude Code IDE Integration
+	---------------------------------------------------------------------------------
+	use({ "folke/snacks.nvim", config = conf("snacks") })
+	use({
+		"coder/claudecode.nvim",
+		requires = { "folke/snacks.nvim" },
+		config = function()
+			require("claudecode").setup({
+				-- デフォルトで十分動くが、必要に応じてカスタマイズ
+				terminal_cmd = "/opt/homebrew/bin/claude",
+				terminal = {
+					split_side = "right",
+					split_width_percentage = 0.40,
+				},
+			})
+
+			-- キーマップ
+			local opts = { noremap = true, silent = true }
+			vim.keymap.set(
+				"n",
+				"<leader>ac",
+				"<cmd>ClaudeCode<cr>",
+				vim.tbl_extend("force", opts, { desc = "Claude: Toggle" })
+			)
+			vim.keymap.set(
+				"n",
+				"<leader>af",
+				"<cmd>ClaudeCodeFocus<cr>",
+				vim.tbl_extend("force", opts, { desc = "Claude: Focus" })
+			)
+			vim.keymap.set(
+				"n",
+				"<leader>ar",
+				"<cmd>ClaudeCode --resume<cr>",
+				vim.tbl_extend("force", opts, { desc = "Claude: Resume" })
+			)
+			vim.keymap.set(
+				"n",
+				"<leader>ab",
+				"<cmd>ClaudeCodeAdd %<cr>",
+				vim.tbl_extend("force", opts, { desc = "Claude: Add buffer" })
+			)
+			vim.keymap.set(
+				"v",
+				"<leader>as",
+				"<cmd>ClaudeCodeSend<cr>",
+				vim.tbl_extend("force", opts, { desc = "Claude: Send selection" })
+			)
+			vim.keymap.set(
+				"n",
+				"<leader>am",
+				"<cmd>ClaudeCodeSelectModel<cr>",
+				vim.tbl_extend("force", opts, { desc = "Claude: Select model" })
+			)
+			-- diff操作
+			vim.keymap.set(
+				"n",
+				"<leader>aa",
+				"<cmd>ClaudeCodeDiffAccept<cr>",
+				vim.tbl_extend("force", opts, { desc = "Claude: Accept diff" })
+			)
+			vim.keymap.set(
+				"n",
+				"<leader>ad",
+				"<cmd>ClaudeCodeDiffDeny<cr>",
+				vim.tbl_extend("force", opts, { desc = "Claude: Deny diff" })
+			)
 		end,
 	})
 

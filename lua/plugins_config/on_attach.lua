@@ -24,7 +24,7 @@ M.on_attach = function(client, bufnr)
 	---------------------------------------------------------------------------
 	-- 自動フォーマット（null-ls 用に限定する）
 	---------------------------------------------------------------------------
-	if client:supports_method("textDocument/formatting") then
+	if client.server_capabilities.documentFormattingProvider then
 		local group = vim.api.nvim_create_augroup("LspFormatting", { clear = false })
 		vim.api.nvim_clear_autocmds({ group = group, buffer = bufnr })
 

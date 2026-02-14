@@ -1,0 +1,15 @@
+WRN 2026-02-11T20:03:57.046 ?.32571    server_start:197: Failed to start server: operation not permitted: /var/folders/cf/sdytjbdd5tggbzqv5d12tvzc0000gn/T/nvim.akito/DJTgK6/nvim.32571.0
+WRN 2026-02-11T20:04:14.070 ?.32662    server_start:197: Failed to start server: operation not permitted: /var/folders/cf/sdytjbdd5tggbzqv5d12tvzc0000gn/T/nvim.akito/CcoTze/nvim.32662.0
+WRN 2026-02-11T20:38:42.629 ?.50313    server_start:197: Failed to start server: operation not permitted: /var/folders/cf/sdytjbdd5tggbzqv5d12tvzc0000gn/T/nvim.akito/aYOgxD/nvim.50313.0
+WRN 2026-02-11T20:39:14.543 ?.50462    server_start:197: Failed to start server: operation not permitted: /var/folders/cf/sdytjbdd5tggbzqv5d12tvzc0000gn/T/nvim.akito/Yot0QP/nvim.50462.0
+WRN 2026-02-11T20:55:31.491 ?.71287    server_start:197: Failed to start server: operation not permitted: /var/folders/cf/sdytjbdd5tggbzqv5d12tvzc0000gn/T/nvim.akito/f8qbJS/nvim.71287.0
+WRN 2026-02-11T20:59:26.235 ?.71932    server_start:197: Failed to start server: operation not permitted: /var/folders/cf/sdytjbdd5tggbzqv5d12tvzc0000gn/T/nvim.akito/uERInE/nvim.71932.0
+WRN 2026-02-11T22:44:46.949 ?.99172    server_start:197: Failed to start server: operation not permitted: /var/folders/cf/sdytjbdd5tggbzqv5d12tvzc0000gn/T/nvim.akito/iwkcLZ/nvim.99172.0
+WRN 2026-02-11T22:46:32.895 ?.6788     server_start:197: Failed to start server: operation not permitted: /var/folders/cf/sdytjbdd5tggbzqv5d12tvzc0000gn/T/nvim.akito/gMp65S/nvim.6788.0
+WRN 2026-02-14T16:19:40.187 ?.96388    server_start:197: Failed to start server: operation not permitted: /var/folders/cf/sdytjbdd5tggbzqv5d12tvzc0000gn/T/nvim.akito/dDQxGA/nvim.96388.0
+WRN 2026-02-14T16:24:12.006 ?.14061    server_start:197: Failed to start server: operation not permitted: /var/folders/cf/sdytjbdd5tggbzqv5d12tvzc0000gn/T/nvim.akito/fjOyns/nvim.14061.0
+WRN 2026-02-14T16:26:17.397 ?.15067    server_start:197: Failed to start server: operation not permitted: /var/folders/cf/sdytjbdd5tggbzqv5d12tvzc0000gn/T/nvim.akito/FrO2kO/nvim.15067.0
+WRN 2026-02-14T16:26:22.683 ?.15071    server_start:197: Failed to start server: operation not permitted: /var/folders/cf/sdytjbdd5tggbzqv5d12tvzc0000gn/T/nvim.akito/nLc80H/nvim.15071.0
+WRN 2026-02-14T16:28:48.842 ?.21042    server_start:197: Failed to start server: operation not permitted: /var/folders/cf/sdytjbdd5tggbzqv5d12tvzc0000gn/T/nvim.akito/VX2agO/nvim.21042.0
+WRN 2026-02-14T16:39:19.477 ?.50541    server_start:197: Failed to start server: operation not permitted: /var/folders/cf/sdytjbdd5tggbzqv5d12tvzc0000gn/T/nvim.akito/bGGhHb/nvim.50541.0
+WRN 2026-02-14T16:41:14.416 ?.56145    server_start:197: Failed to start server: operation not permitted: /var/folders/cf/sdytjbdd5tggbzqv5d12tvzc0000gn/T/nvim.akito/HxwOmS/nvim.56145.0

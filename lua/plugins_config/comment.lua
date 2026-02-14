@@ -67,5 +67,5 @@ comment.setup({
 -- )
 
 -- カスタムマッピングを設定 -> Ctrl + kでコメント化できない
-vim.api.nvim_set_keymap("n", "<C-k>", "gcc", { noremap = true, silent = true })
-vim.api.nvim_set_keymap("v", "<C-k>", "gcc", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<C-k>", "gcc", { noremap = false, silent = true })
+vim.api.nvim_set_keymap("v", "<C-k>", "gc", { noremap = false, silent = true })

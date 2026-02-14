@@ -8,6 +8,7 @@ if not vim.g.vscode then
   autocmd("BufWritePre", {
     pattern = "*",
     callback = function()
+      if not vim.bo.modifiable then return end
       local save_cursor = vim.fn.getcurpos()
       vim.cmd([[%s/\s\+$//e]])
       vim.fn.setpos(".", save_cursor)
@@ -22,6 +23,24 @@ autocmd("BufWritePre", {
   pattern = "*.py",
   callback = function()
     vim.lsp.buf.format({ async = false })
+  end,
+})
+
+-- Neovim 0.12: provide backward-compatible client.supports_method for older plugins.
+autocmd("LspAttach", {
+  group = mygroup,
+  callback = function(args)
+    local client = vim.lsp.get_client_by_id(args.data.client_id)
+    if not client then
+      return
+    end
+    if rawget(client, "supports_method") ~= nil then
+      return
+    end
+    client.supports_method = function(method, opts)
+      local bufnr = type(opts) == "table" and opts.bufnr or nil
+      return client:supports_method(method, bufnr)
+    end
   end,
 })
 

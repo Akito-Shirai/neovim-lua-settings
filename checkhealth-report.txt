@@ -1,0 +1,1677 @@
+
+==============================================================================
+dap:                                                                        ✅
+
+dap: Adapters ~
+
+dap.adapter: python ~
+- ✅ OK is executable: /Users/akito/.local/share/nvim/mason/packages/debugpy/venv/bin/python
+
+dap: Sessions ~
+- ✅ OK No active sessions
+
+==============================================================================
+dressing:                                                                   ✅
+
+dressing.nvim ~
+- ✅ OK vim.ui.input active
+- ✅ OK vim.ui.select active: telescope
+
+==============================================================================
+lspconfig:                                                                  ✅
+
+- Skipped. This healthcheck is redundant with `:checkhealth vim.lsp`.
+
+==============================================================================
+lspsaga:                                                                    ✅
+
+Lspsaga.nvim report ~
+- ✅ OK `tree-sitter` found 
+- ✅ OK tree-sitter `markdown` parser found
+- ✅ OK tree-sitter `markdown_inline` parser found
+
+==============================================================================
+luasnip:                                                                    ✅
+
+luasnip ~
+- ✅ OK jsregexp is installed
+
+==============================================================================
+mason:                                                                      ✅
+
+mason.nvim ~
+- ✅ OK mason.nvim version v2.2.1
+- ✅ OK PATH: prepend
+- ✅ OK Providers: 
+    mason.providers.registry-api
+    mason.providers.client
+- ✅ OK neovim version >= 0.10.0
+
+mason.nvim [Registries] ~
+- ✅ OK Registry `github.com/mason-org/mason-registry version: 2026-02-11-aged-mouse` is installed.
+- ✅ OK Registry `SynthesizedRegistrySource` is installed.
+
+mason.nvim [Core utils] ~
+- ✅ OK unzip: `UnZip 6.00 of 20 April 2009, by Info-ZIP, with modifications by Apple Inc.`
+- ✅ OK wget: `GNU Wget 1.25.0, a non-interactive network retriever.`
+- ✅ OK curl: `curl 8.7.1 (x86_64-apple-darwin24.0) libcurl/8.7.1 (SecureTransport) LibreSSL/3.3.6 zlib/1.2.12 nghttp2/1.64.0`
+- ✅ OK gzip: `Apple gzip 457.140.3`
+- ✅ OK tar: `bsdtar 3.5.3 - libarchive 3.7.4 zlib/1.2.12 liblzma/5.4.3 bz2lib/1.0.8 `
+- ✅ OK bash: `GNU bash, version 3.2.57(1)-release (arm64-apple-darwin24)`
+
+mason.nvim [Languages] ~
+- ✅ OK Go: `go version go1.25.7 darwin/arm64`
+- ✅ OK Ruby: `ruby 2.6.10p210 (2022-04-12 revision 67958) [universal.arm64e-darwin24]`
+- ✅ OK cargo: `cargo 1.93.0 (Homebrew)`
+- ✅ OK luarocks: `/opt/homebrew/bin/luarocks 3.12.2`
+- ✅ OK RubyGem: `3.0.3.1`
+- ✅ OK node: `v25.6.0`
+- ✅ OK PHP: `PHP 8.5.2 (cli) (built: Jan 13 2026 21:40:53) (NTS)`
+- ✅ OK Composer: `Composer version 2.9.5 2026-01-29 11:40:53`
+- ✅ OK python: `Python 3.14.3`
+- ✅ OK julia: `julia version 1.12.4`
+- ✅ OK java: `openjdk version "21" 2023-09-19`
+- ✅ OK npm: `11.8.0`
+- ✅ OK javac: `javac 21`
+- ✅ OK pip: `pip 26.0 from /opt/homebrew/lib/python3.14/site-packages/pip (python 3.14)`
+- ✅ OK python venv: `Ok`
+
+==============================================================================
+mason-lspconfig:                                                            ✅
+
+mason-lspconfig.nvim ~
+- ✅ OK Neovim v0.11
+- ✅ OK mason.nvim v2
+
+==============================================================================
+noice:                                                                      ✅
+
+noice.nvim ~
+- ✅ OK *Neovim* >= 0.9.0
+- ✅ OK *vim.go.lazyredraw* is not enabled
+- ✅ OK `snacks.nvim` is installed
+- ✅ OK `nvim-notify` is installed
+- ✅ OK {TreeSitter} `vim` parser is installed
+- ✅ OK {TreeSitter} `regex` parser is installed
+- ✅ OK {TreeSitter} `lua` parser is installed
+- ✅ OK {TreeSitter} `bash` parser is installed
+- ✅ OK {TreeSitter} `markdown` parser is installed
+- ✅ OK {TreeSitter} `markdown_inline` parser is installed
+
+==============================================================================
+null-ls:                                                                    ✅
+
+- ✅ OK black: the command "/Users/akito/.local/share/nvim/mason/bin/black" is executable.
+- ✅ OK isort: the command "isort" is executable.
+- ✅ OK stylua: the command "stylua" is executable.
+- ✅ OK shfmt: the command "shfmt" is executable.
+- ✅ OK prettier: the command "prettier" is executable.
+- ✅ OK yamllint: the command "yamllint" is executable.
+
+==============================================================================
+nvim-treesitter:                                                            ✅
+
+Installation ~
+- ✅ OK `tree-sitter` found 0.26.5 (parser generator, only needed for :TSInstallFromGrammar)
+- ✅ OK `node` found v25.6.0 (only needed for :TSInstallFromGrammar)
+- ✅ OK `git` executable found.
+- ✅ OK `cc` executable found. Selected from { vim.NIL, "cc", "gcc", "clang", "cl", "zig" }
+  Version: Apple clang version 17.0.0 (clang-1700.4.4.1)
+- ✅ OK Neovim was compiled with tree-sitter runtime ABI version 15 (required >=13). Parsers must be compatible with runtime ABI.
+
+OS Info:
+{
+  machine = "arm64",
+  release = "24.6.0",
+  sysname = "Darwin",
+  version = "Darwin Kernel Version 24.6.0: Wed Nov  5 21:33:58 PST 2025; root:xnu-11417.140.69.705.2~1/RELEASE_ARM64_T6000"
+} ~
+
+Parser/Features         H L F I J
+  - bash                ✓ ✓ ✓ . ✓
+  - c                   ✓ ✓ ✓ ✓ ✓
+  - css                 ✓ . ✓ ✓ ✓
+  - dart                ✓ ✓ ✓ ✓ ✓
+  - fish                ✓ ✓ ✓ ✓ ✓
+  - html                ✓ ✓ ✓ ✓ ✓
+  - json                ✓ ✓ ✓ ✓ .
+  - lua                 ✓ ✓ ✓ ✓ ✓
+  - markdown            ✓ . ✓ ✓ ✓
+  - markdown_inline     ✓ . . . ✓
+  - php                 ✓ ✓ ✓ ✓ ✓
+  - python              ✓ ✓ ✓ ✓ ✓
+  - query               ✓ ✓ ✓ ✓ ✓
+  - regex               ✓ . . . .
+  - swift               ✓ ✓ ✓ ✓ ✓
+  - toml                ✓ ✓ ✓ ✓ ✓
+  - tsx                 ✓ ✓ ✓ ✓ ✓
+  - vim                 ✓ ✓ ✓ . ✓
+  - vimdoc              ✓ . . . ✓
+  - yaml                ✓ ✓ ✓ ✓ ✓
+
+  Legend: H[ighlight], L[ocals], F[olds], I[ndents], In[j]ections
+         +) multiple parsers found, only one will be used
+         x) errors found in the query, try to run :TSUpdate {lang} ~
+
+==============================================================================
+snacks:                                                                  17 ⚠️
+
+Snacks ~
+- ✅ OK setup called
+
+Snacks.bigfile ~
+- ⚠️ WARNING setup {disabled}
+
+Snacks.dashboard ~
+- ⚠️ WARNING setup {disabled}
+
+Snacks.explorer ~
+- ⚠️ WARNING setup {disabled}
+- ✅ OK 'trash' `# Un-recognized argument --version at index 1`
+- ✅ OK 'gio' `2.86.3`
+- ✅ OK System trash command found
+
+Snacks.image ~
+- ✅ OK setup {enabled}
+- ✅ OK 'wezterm' `wezterm 20240203-110809-5046fc22`
+- ✅ OK 'magick' `Version: ImageMagick 7.1.2-13 Q16-HDRI aarch64 23522 https://imagemagick.org`
+- ✅ OK 'convert' `WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"`
+- ✅ OK `wezterm` detected and supported
+- ⚠️ WARNING `wezterm` does not support placeholders. Fallback rendering will be used
+- ⚠️ WARNING Inline images are disabled
+- ✅ OK Terminal Dimensions:
+  - {size}: `720` x `432` pixels
+  - {scale}: `1.12`
+  - {cell}: `9` x `18` pixels
+- ✅ OK Available Treesitter languages:
+    `css`, `html`, `markdown_inline`, `markdown`, `tsx`
+- ⚠️ WARNING Missing Treesitter languages:
+    `javascript`, `latex`, `norg`, `scss`, `svelte`, `typst`, `vue`
+- ⚠️ WARNING Image rendering in docs with missing treesitter parsers won't work
+- ✅ OK 'gs' `10.06.0`
+- ✅ OK PDF files are supported
+- ✅ OK 'tectonic' `tectonic 0.15.0Tectonic 0.15.0`
+- ⚠️ WARNING The `latex` treesitter parser is required to render LaTeX math expressions
+- ✅ OK 'mmdc' `11.12.0`
+- ✅ OK Mermaid diagrams are supported
+- ✅ OK your terminal supports the kitty graphics protocol
+
+Snacks.input ~
+- ⚠️ WARNING setup {disabled}
+
+Snacks.lazygit ~
+- ✅ OK {lazygit} installed
+
+Snacks.notifier ~
+- ✅ OK setup {enabled}
+- ✅ OK is ready
+
+Snacks.picker ~
+- ⚠️ WARNING setup {disabled}
+- ⚠️ WARNING `vim.ui.select` for `Snacks.picker` is not enabled
+- ✅ OK Available Treesitter languages:
+    `regex`
+- ✅ OK 'git' `git version 2.52.0`
+- ✅ OK 'rg' `ripgrep 15.1.0`
+- ✅ OK `Snacks.picker.grep()` is available
+- ✅ OK 'fd' `fd 10.3.0`
+- ✅ OK `Snacks.picker.files()` is available
+- ✅ OK `Snacks.picker.explorer()` is available
+- ✅ OK `SQLite3` is available
+
+Snacks.quickfile ~
+- ⚠️ WARNING setup {disabled}
+
+Snacks.scope ~
+- ⚠️ WARNING setup {disabled}
+
+Snacks.scroll ~
+- ⚠️ WARNING setup {disabled}
+
+Snacks.statuscolumn ~
+- ⚠️ WARNING setup {disabled}
+
+Snacks.terminal ~
+- ✅ OK shell configured
+  - `vim.o.shell`: /bin/zsh
+  - `parsed`: { "/bin/zsh" }
+
+Snacks.toggle ~
+- ⚠️ WARNING {which-key} is not installed
+
+Snacks.words ~
+- ⚠️ WARNING setup {disabled}
+
+==============================================================================
+telescope:                                                                  ✅
+
+Checking for required plugins ~
+- ✅ OK plenary installed.
+
+Checking external dependencies ~
+- ✅ OK rg: found ripgrep 15.1.0
+- ✅ OK fd: found fd 10.3.0
+
+===== Installed extensions ===== ~
+
+Telescope Extension: `file_browser` ~
+- No healthcheck provided
+
+==============================================================================
+vim.deprecated:                                                             ✅
+
+- ✅ OK No deprecated functions detected
+
+==============================================================================
+vim.health:                                                               1 ⚠️
+
+System Info ~
+- ⚠️ WARNING Build is outdated. Local: 1355640d6a, Latest: 6b4ec2264e1d
+- Nvim version: `v0.12.0-dev-4246+g1355640d6a-Homebrew` 1355640d6a
+- Operating system: Darwin 24.6.0
+- Terminal: WezTerm 20240203-110809-5046fc22
+- $TERM: dumb
+
+Configuration ~
+- ✅ OK no issues found
+
+Runtime ~
+- ✅ OK $VIMRUNTIME: /opt/homebrew/Cellar/neovim/HEAD-1355640/share/nvim/runtime
+
+Performance ~
+- ✅ OK Build type: Release
+
+Remote Plugins ~
+- ✅ OK Up to date
+
+Terminal ~
+- key_backspace (kbs) terminfo entry: `? (not found)`
+- key_dc (kdch1) terminfo entry: `? (not found)`
+- $TERM_PROGRAM="WezTerm"
+
+External Tools ~
+- ✅ OK ripgrep 15.1.0 (/opt/homebrew/bin/rg)
+- ✅ OK vim.ui.open: handler found (open)
+- ✅ OK git version 2.52.0 (/opt/homebrew/bin/git)
+- ✅ OK curl 8.7.1 (/usr/bin/curl)
+  curl 8.7.1 (x86_64-apple-darwin24.0) libcurl/8.7.1 (SecureTransport) LibreSSL/3.3.6 zlib/1.2.12 nghttp2/1.64.0
+  Release-Date: 2024-03-27
+  Protocols: dict file ftp ftps gopher gophers http https imap imaps ipfs ipns ldap ldaps mqtt pop3 pop3s rtsp smb smbs smtp smtps telnet tftp
+  Features: alt-svc AsynchDNS GSS-API HSTS HTTP2 HTTPS-proxy IPv6 Kerberos Largefile libz MultiSSL NTLM SPNEGO SSL threadsafe UnixSockets
+
+==============================================================================
+vim.lsp:                                                                  5 ⚠️
+
+- LSP log level : WARN
+- Log path: /Users/akito/.local/state/nvim/lsp.log
+- Log size: 2333 KB
+
+vim.lsp: Active Features ~
+
+vim.lsp: Active Clients ~
+- No active clients
+
+vim.lsp: Enabled Configurations ~
+- bashls:
+  - cmd: { "bash-language-server", "start" }
+  - filetypes: bash, sh
+  - root_markers: { ".git" }
+  - settings: {
+      bashIde = {
+        globPattern = "*@(.sh|.inc|.bash|.command)"
+      }
+    }
+
+- jsonls:
+  - cmd: { "vscode-json-language-server", "--stdio" }
+  - filetypes: json, jsonc
+  - init_options: {
+      provideFormatter = true
+    }
+  - root_markers: { ".git" }
+
+- lua_ls:
+  - cmd: { "lua-language-server" }
+  - filetypes: lua
+  - root_markers: { { ".emmyrc.json", ".luarc.json", ".luarc.jsonc" }, { ".luacheckrc", ".stylua.toml", "stylua.toml", "selene.toml", "selene.yml" }, { ".git" } }
+  - settings: {
+      Lua = {
+        codeLens = {
+          enable = true
+        },
+        hint = {
+          enable = true,
+          semicolon = "Disable"
+        }
+      }
+    }
+
+- pyright:
+  - cmd: { "pyright-langserver", "--stdio" }
+  - filetypes: python
+  - on_attach: <function @/Users/akito/.local/share/nvim/site/pack/packer/start/nvim-lspconfig/lsp/pyright.lua:46>
+  - root_markers: { "pyrightconfig.json", "pyproject.toml", "setup.py", "setup.cfg", "requirements.txt", "Pipfile", ".git" }
+  - settings: {
+      python = {
+        analysis = {
+          autoSearchPaths = true,
+          diagnosticMode = "openFilesOnly",
+          useLibraryCodeForTypes = true
+        }
+      }
+    }
+
+- sqls:
+  - cmd: { "sqls" }
+  - filetypes: sql, mysql
+  - root_markers: { "config.yml" }
+  - settings: {}
+
+- stylua:
+  - cmd: { "stylua", "--lsp" }
+  - filetypes: lua
+  - root_markers: { ".stylua.toml", "stylua.toml", ".editorconfig" }
+
+- ⚠️ WARNING Unknown filetype 'javascript.jsx' (Hint: filename extension != filetype).
+- ⚠️ WARNING Unknown filetype 'typescript.tsx' (Hint: filename extension != filetype).
+- ts_ls:
+  - cmd: { "typescript-language-server", "--stdio" }
+  - commands: {
+      ["editor.action.showReferences"] = <function 1>
+    }
+  - filetypes: javascript, javascriptreact, javascript.jsx, typescript, typescriptreact, typescript.tsx
+  - handlers: {
+      ["_typescript.rename"] = <function 1>
+    }
+  - init_options: {
+      hostInfo = "neovim"
+    }
+  - on_attach: <function @/Users/akito/.local/share/nvim/site/pack/packer/start/nvim-lspconfig/lsp/ts_ls.lua:118>
+  - root_dir: <function @/Users/akito/.local/share/nvim/site/pack/packer/start/nvim-lspconfig/lsp/ts_ls.lua:58>
+
+- ⚠️ WARNING Unknown filetype 'yaml.docker-compose' (Hint: filename extension != filetype).
+- ⚠️ WARNING Unknown filetype 'yaml.gitlab' (Hint: filename extension != filetype).
+- ⚠️ WARNING Unknown filetype 'yaml.helm-values' (Hint: filename extension != filetype).
+- yamlls:
+  - cmd: { "yaml-language-server", "--stdio" }
+  - filetypes: yaml, yaml.docker-compose, yaml.gitlab, yaml.helm-values
+  - on_init: <function @/Users/akito/.local/share/nvim/site/pack/packer/start/nvim-lspconfig/lsp/yamlls.lua:73>
+  - root_markers: { ".git" }
+  - settings: {
+      redhat = {
+        telemetry = {
+          enabled = false
+        }
+      },
+      yaml = {
+        format = {
+          enable = true
+        }
+      }
+    }
+
+
+vim.lsp: File Watcher ~
+- file watching "(workspace/didChangeWatchedFiles)" disabled on all clients
+
+vim.lsp: Position Encodings ~
+- No active clients
+
+==============================================================================
+vim.pack:                                                                   ✅
+
+vim.pack: basics ~
+- ✅ OK `vim.pack` is not used
+
+==============================================================================
+vim.provider:                                                               ✅
+
+Clipboard (optional) ~
+- ✅ OK Clipboard tool found: pbcopy
+
+Node.js provider (optional) ~
+- Node.js: 25.6.0
+- Nvim node.js host: /opt/homebrew/lib/node_modules/neovim/bin/cli.js
+- ✅ OK Latest "neovim" npm/yarn/pnpm package is installed: 4.10.1
+
+
+Perl provider (optional) ~
+- Disabled (loaded_perl_provider=0).
+
+Python 3 provider (optional) ~
+- pyenv: Path: /opt/homebrew/Cellar/pyenv/2.6.22/libexec/pyenv
+- pyenv: Root: /Users/akito/.pyenv
+- Using: g:python3_host_prog = "/Users/akito/.local/share/nvim/venv/bin/python"
+- Executable: /Users/akito/.local/share/nvim/venv/bin/python
+- Python version: 3.14.3
+- pynvim version: 0.6.0
+- ✅ OK Latest pynvim is installed.
+
+Python virtualenv ~
+- ✅ OK no $VIRTUAL_ENV
+
+Ruby provider (optional) ~
+- Disabled (loaded_ruby_provider=0).
+
+==============================================================================
+vim.treesitter:                                                             ✅
+
+Treesitter features ~
+- Treesitter ABI support: min 13, max 15
+- WASM parser support: false
+
+Treesitter parsers ~
+- ✅ OK Parser: bash                      ABI: 14, path: /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/parser/bash.so
+- ✅ OK Parser: c                         ABI: 15, path: /opt/homebrew/Cellar/neovim/HEAD-1355640/lib/nvim/parser/c.so
+- ✅ OK Parser: css                       ABI: 14, path: /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/parser/css.so
+- ✅ OK Parser: dart                      ABI: 14, path: /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/parser/dart.so
+- ✅ OK Parser: fish                      ABI: 14, path: /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/parser/fish.so
+- ✅ OK Parser: html                      ABI: 14, path: /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/parser/html.so
+- ✅ OK Parser: json                      ABI: 14, path: /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/parser/json.so
+- ✅ OK Parser: lua                       ABI: 14, path: /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/parser/lua.so
+- ✅ OK Parser: lua                  (not loaded), path: /opt/homebrew/Cellar/neovim/HEAD-1355640/lib/nvim/parser/lua.so
+- ✅ OK Parser: markdown                  ABI: 14, path: /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/parser/markdown.so
+- ✅ OK Parser: markdown             (not loaded), path: /opt/homebrew/Cellar/neovim/HEAD-1355640/lib/nvim/parser/markdown.so
+- ✅ OK Parser: markdown_inline           ABI: 14, path: /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/parser/markdown_inline.so
+- ✅ OK Parser: markdown_inline      (not loaded), path: /opt/homebrew/Cellar/neovim/HEAD-1355640/lib/nvim/parser/markdown_inline.so
+- ✅ OK Parser: php                       ABI: 14, path: /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/parser/php.so
+- ✅ OK Parser: python                    ABI: 14, path: /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/parser/python.so
+- ✅ OK Parser: query                     ABI: 15, path: /opt/homebrew/Cellar/neovim/HEAD-1355640/lib/nvim/parser/query.so
+- ✅ OK Parser: regex                     ABI: 14, path: /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/parser/regex.so
+- ✅ OK Parser: swift                     ABI: 15, path: /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/parser/swift.so
+- ✅ OK Parser: toml                      ABI: 14, path: /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/parser/toml.so
+- ✅ OK Parser: tsx                       ABI: 14, path: /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/parser/tsx.so
+- ✅ OK Parser: vim                       ABI: 15, path: /opt/homebrew/Cellar/neovim/HEAD-1355640/lib/nvim/parser/vim.so
+- ✅ OK Parser: vimdoc                    ABI: 15, path: /opt/homebrew/Cellar/neovim/HEAD-1355640/lib/nvim/parser/vimdoc.so
+- ✅ OK Parser: yaml                      ABI: 14, path: /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/parser/yaml.so
+
+Treesitter queries ~
+- ✅ OK ada             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ada
+- ✅ OK ada             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ada
+- ✅ OK ada             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ada
+- ✅ OK ada             locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ada
+- ✅ OK agda            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/agda
+- ✅ OK agda            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/agda
+- ✅ OK agda            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/agda
+- ✅ OK angular         folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/angular
+- ✅ OK angular         highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/angular
+- ✅ OK angular         indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/angular
+- ✅ OK angular         injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/angular
+- ✅ OK angular         locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/angular
+- ✅ OK apex            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/apex
+- ✅ OK apex            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/apex
+- ✅ OK apex            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/apex
+- ✅ OK apex            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/apex
+- ✅ OK arduino         folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/arduino
+- ✅ OK arduino         highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/arduino
+- ✅ OK arduino         indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/arduino
+- ✅ OK arduino         injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/arduino
+- ✅ OK arduino         locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/arduino
+- ✅ OK asm             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/asm
+- ✅ OK asm             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/asm
+- ✅ OK astro           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/astro
+- ✅ OK astro           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/astro
+- ✅ OK astro           indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/astro
+- ✅ OK astro           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/astro
+- ✅ OK astro           locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/astro
+- ✅ OK authzed         highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/authzed
+- ✅ OK authzed         injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/authzed
+- ✅ OK awk             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/awk
+- ✅ OK awk             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/awk
+- ✅ OK bash            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/bash
+- ✅ OK bash            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/bash
+- ✅ OK bash            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/bash
+- ✅ OK bash            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/bash
+- ✅ OK bass            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/bass
+- ✅ OK bass            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/bass
+- ✅ OK bass            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/bass
+- ✅ OK bass            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/bass
+- ✅ OK bass            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/bass
+- ✅ OK beancount       folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/beancount
+- ✅ OK beancount       highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/beancount
+- ✅ OK beancount       injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/beancount
+- ✅ OK bibtex          folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/bibtex
+- ✅ OK bibtex          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/bibtex
+- ✅ OK bibtex          indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/bibtex
+- ✅ OK bibtex          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/bibtex
+- ✅ OK bicep           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/bicep
+- ✅ OK bicep           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/bicep
+- ✅ OK bicep           indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/bicep
+- ✅ OK bicep           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/bicep
+- ✅ OK bicep           locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/bicep
+- ✅ OK bitbake         folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/bitbake
+- ✅ OK bitbake         highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/bitbake
+- ✅ OK bitbake         indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/bitbake
+- ✅ OK bitbake         injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/bitbake
+- ✅ OK bitbake         locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/bitbake
+- ✅ OK blade           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/blade
+- ✅ OK blade           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/blade
+- ✅ OK blade           indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/blade
+- ✅ OK blade           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/blade
+- ✅ OK blueprint       highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/blueprint
+- ✅ OK blueprint       injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/blueprint
+- ✅ OK bp              folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/bp
+- ✅ OK bp              highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/bp
+- ✅ OK bp              indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/bp
+- ✅ OK bp              injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/bp
+- ✅ OK bp              locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/bp
+- ✅ OK brightscript    folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/brightscript
+- ✅ OK brightscript    highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/brightscript
+- ✅ OK brightscript    indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/brightscript
+- ✅ OK brightscript    injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/brightscript
+- ✅ OK c               folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/c
+- ✅ OK c               folds           /opt/homebrew/Cellar/neovim/HEAD-1355640/share/nvim/runtime/queries/c
+- ✅ OK c               highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/c
+- ✅ OK c               highlights      /opt/homebrew/Cellar/neovim/HEAD-1355640/share/nvim/runtime/queries/c
+- ✅ OK c               indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/c
+- ✅ OK c               injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/c
+- ✅ OK c               injections      /opt/homebrew/Cellar/neovim/HEAD-1355640/share/nvim/runtime/queries/c
+- ✅ OK c               locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/c
+- ✅ OK c_sharp         folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/c_sharp
+- ✅ OK c_sharp         highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/c_sharp
+- ✅ OK c_sharp         injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/c_sharp
+- ✅ OK c_sharp         locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/c_sharp
+- ✅ OK caddy           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/caddy
+- ✅ OK caddy           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/caddy
+- ✅ OK caddy           indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/caddy
+- ✅ OK caddy           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/caddy
+- ✅ OK cairo           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cairo
+- ✅ OK cairo           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cairo
+- ✅ OK cairo           indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cairo
+- ✅ OK cairo           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cairo
+- ✅ OK cairo           locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cairo
+- ✅ OK capnp           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/capnp
+- ✅ OK capnp           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/capnp
+- ✅ OK capnp           indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/capnp
+- ✅ OK capnp           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/capnp
+- ✅ OK capnp           locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/capnp
+- ✅ OK chatito         folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/chatito
+- ✅ OK chatito         highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/chatito
+- ✅ OK chatito         indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/chatito
+- ✅ OK chatito         injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/chatito
+- ✅ OK chatito         locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/chatito
+- ✅ OK circom          folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/circom
+- ✅ OK circom          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/circom
+- ✅ OK circom          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/circom
+- ✅ OK circom          locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/circom
+- ✅ OK clojure         folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/clojure
+- ✅ OK clojure         highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/clojure
+- ✅ OK clojure         injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/clojure
+- ✅ OK clojure         locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/clojure
+- ✅ OK cmake           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cmake
+- ✅ OK cmake           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cmake
+- ✅ OK cmake           indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cmake
+- ✅ OK cmake           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cmake
+- ✅ OK comment         highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/comment
+- ✅ OK commonlisp      folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/commonlisp
+- ✅ OK commonlisp      highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/commonlisp
+- ✅ OK commonlisp      injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/commonlisp
+- ✅ OK commonlisp      locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/commonlisp
+- ✅ OK cooklang        highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cooklang
+- ✅ OK cooklang        injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cooklang
+- ✅ OK corn            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/corn
+- ✅ OK corn            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/corn
+- ✅ OK corn            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/corn
+- ✅ OK corn            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/corn
+- ✅ OK corn            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/corn
+- ✅ OK cpon            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cpon
+- ✅ OK cpon            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cpon
+- ✅ OK cpon            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cpon
+- ✅ OK cpon            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cpon
+- ✅ OK cpon            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cpon
+- ✅ OK cpp             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cpp
+- ✅ OK cpp             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cpp
+- ✅ OK cpp             indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cpp
+- ✅ OK cpp             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cpp
+- ✅ OK cpp             locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cpp
+- ✅ OK css             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/css
+- ✅ OK css             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/css
+- ✅ OK css             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/catppuccin/after/queries/css
+- ✅ OK css             images          /Users/akito/.local/share/nvim/site/pack/packer/start/snacks.nvim/queries/css
+- ✅ OK css             indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/css
+- ✅ OK css             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/css
+- ✅ OK csv             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/csv
+- ✅ OK cuda            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cuda
+- ✅ OK cuda            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cuda
+- ✅ OK cuda            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cuda
+- ✅ OK cuda            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cuda
+- ✅ OK cuda            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cuda
+- ✅ OK cue             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cue
+- ✅ OK cue             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cue
+- ✅ OK cue             indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cue
+- ✅ OK cue             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cue
+- ✅ OK cue             locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cue
+- ✅ OK cylc            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cylc
+- ✅ OK cylc            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cylc
+- ✅ OK cylc            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cylc
+- ✅ OK cylc            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/cylc
+- ✅ OK d               folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/d
+- ✅ OK d               highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/d
+- ✅ OK d               indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/d
+- ✅ OK d               injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/d
+- ✅ OK d               locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/d
+- ✅ OK dart            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/dart
+- ✅ OK dart            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/dart
+- ✅ OK dart            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/dart
+- ✅ OK dart            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/dart
+- ✅ OK dart            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/dart
+- ✅ OK desktop         folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/desktop
+- ✅ OK desktop         highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/desktop
+- ✅ OK desktop         injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/desktop
+- ✅ OK devicetree      folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/devicetree
+- ✅ OK devicetree      highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/devicetree
+- ✅ OK devicetree      indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/devicetree
+- ✅ OK devicetree      injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/devicetree
+- ✅ OK devicetree      locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/devicetree
+- ✅ OK dhall           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/dhall
+- ✅ OK dhall           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/dhall
+- ✅ OK dhall           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/dhall
+- ✅ OK diff            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/diff
+- ✅ OK diff            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/diff
+- ✅ OK diff            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/diff
+- ✅ OK disassembly     highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/disassembly
+- ✅ OK disassembly     injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/disassembly
+- ✅ OK djot            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/djot
+- ✅ OK djot            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/djot
+- ✅ OK djot            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/djot
+- ✅ OK djot            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/djot
+- ✅ OK djot            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/djot
+- ✅ OK dockerfile      highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/dockerfile
+- ✅ OK dockerfile      injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/dockerfile
+- ✅ OK dot             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/dot
+- ✅ OK dot             indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/dot
+- ✅ OK dot             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/dot
+- ✅ OK doxygen         highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/doxygen
+- ✅ OK doxygen         indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/doxygen
+- ✅ OK doxygen         injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/doxygen
+- ✅ OK dtd             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/dtd
+- ✅ OK dtd             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/dtd
+- ✅ OK dtd             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/dtd
+- ✅ OK dtd             locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/dtd
+- ✅ OK earthfile       highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/earthfile
+- ✅ OK earthfile       injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/earthfile
+- ✅ OK ebnf            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ebnf
+- ✅ OK ebnf            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ebnf
+- ✅ OK ecma            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ecma
+- ✅ OK ecma            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ecma
+- ✅ OK ecma            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ecma
+- ✅ OK ecma            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ecma
+- ✅ OK ecma            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ecma
+- ✅ OK editorconfig    folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/editorconfig
+- ✅ OK editorconfig    highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/editorconfig
+- ✅ OK editorconfig    injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/editorconfig
+- ✅ OK eds             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/eds
+- ✅ OK eds             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/eds
+- ✅ OK eex             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/eex
+- ✅ OK eex             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/eex
+- ✅ OK elixir          folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/elixir
+- ✅ OK elixir          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/elixir
+- ✅ OK elixir          indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/elixir
+- ✅ OK elixir          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/elixir
+- ✅ OK elixir          locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/elixir
+- ✅ OK elm             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/elm
+- ✅ OK elm             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/elm
+- ✅ OK elm             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/elm
+- ✅ OK elsa            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/elsa
+- ✅ OK elsa            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/elsa
+- ✅ OK elsa            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/elsa
+- ✅ OK elsa            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/elsa
+- ✅ OK elsa            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/elsa
+- ✅ OK elvish          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/elvish
+- ✅ OK elvish          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/elvish
+- ✅ OK embedded_template highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/embedded_template
+- ✅ OK embedded_template injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/embedded_template
+- ✅ OK enforce         folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/enforce
+- ✅ OK enforce         highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/enforce
+- ✅ OK enforce         indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/enforce
+- ✅ OK enforce         injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/enforce
+- ✅ OK enforce         locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/enforce
+- ✅ OK erlang          folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/erlang
+- ✅ OK erlang          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/erlang
+- ✅ OK erlang          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/erlang
+- ✅ OK facility        folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/facility
+- ✅ OK facility        highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/facility
+- ✅ OK facility        indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/facility
+- ✅ OK facility        injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/facility
+- ✅ OK faust           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/faust
+- ✅ OK faust           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/faust
+- ✅ OK fennel          folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/fennel
+- ✅ OK fennel          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/fennel
+- ✅ OK fennel          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/fennel
+- ✅ OK fennel          locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/fennel
+- ✅ OK fidl            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/fidl
+- ✅ OK fidl            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/fidl
+- ✅ OK fidl            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/fidl
+- ✅ OK firrtl          folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/firrtl
+- ✅ OK firrtl          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/firrtl
+- ✅ OK firrtl          indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/firrtl
+- ✅ OK firrtl          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/firrtl
+- ✅ OK firrtl          locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/firrtl
+- ✅ OK fish            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/fish
+- ✅ OK fish            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/fish
+- ✅ OK fish            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/fish
+- ✅ OK fish            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/fish
+- ✅ OK fish            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/fish
+- ✅ OK foam            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/foam
+- ✅ OK foam            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/foam
+- ✅ OK foam            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/foam
+- ✅ OK foam            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/foam
+- ✅ OK foam            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/foam
+- ✅ OK forth           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/forth
+- ✅ OK forth           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/forth
+- ✅ OK forth           indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/forth
+- ✅ OK forth           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/forth
+- ✅ OK forth           locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/forth
+- ✅ OK fortran         folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/fortran
+- ✅ OK fortran         highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/fortran
+- ✅ OK fortran         indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/fortran
+- ✅ OK fortran         injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/fortran
+- ✅ OK fsh             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/fsh
+- ✅ OK fsh             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/fsh
+- ✅ OK fsharp          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/fsharp
+- ✅ OK fsharp          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/fsharp
+- ✅ OK func            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/func
+- ✅ OK func            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/func
+- ✅ OK fusion          folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/fusion
+- ✅ OK fusion          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/fusion
+- ✅ OK fusion          indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/fusion
+- ✅ OK fusion          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/fusion
+- ✅ OK fusion          locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/fusion
+- ✅ OK gap             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gap
+- ✅ OK gap             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gap
+- ✅ OK gap             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gap
+- ✅ OK gap             locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gap
+- ✅ OK gaptst          folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gaptst
+- ✅ OK gaptst          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gaptst
+- ✅ OK gaptst          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gaptst
+- ✅ OK gdscript        folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gdscript
+- ✅ OK gdscript        highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gdscript
+- ✅ OK gdscript        indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gdscript
+- ✅ OK gdscript        injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gdscript
+- ✅ OK gdscript        locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gdscript
+- ✅ OK gdshader        highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gdshader
+- ✅ OK gdshader        injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gdshader
+- ✅ OK git_config      folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/git_config
+- ✅ OK git_config      highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/git_config
+- ✅ OK git_config      injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/git_config
+- ✅ OK git_rebase      highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/git_rebase
+- ✅ OK git_rebase      injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/git_rebase
+- ✅ OK gitattributes   highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gitattributes
+- ✅ OK gitattributes   injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gitattributes
+- ✅ OK gitattributes   locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gitattributes
+- ✅ OK gitcommit       highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gitcommit
+- ✅ OK gitcommit       injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gitcommit
+- ✅ OK gitignore       highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gitignore
+- ✅ OK gitignore       injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gitignore
+- ✅ OK gleam           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gleam
+- ✅ OK gleam           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gleam
+- ✅ OK gleam           indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gleam
+- ✅ OK gleam           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gleam
+- ✅ OK gleam           locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gleam
+- ✅ OK glimmer         folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/glimmer
+- ✅ OK glimmer         highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/glimmer
+- ✅ OK glimmer         indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/glimmer
+- ✅ OK glimmer         injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/glimmer
+- ✅ OK glimmer         locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/glimmer
+- ✅ OK glimmer_javascript highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/glimmer_javascript
+- ✅ OK glimmer_javascript indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/glimmer_javascript
+- ✅ OK glimmer_javascript injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/glimmer_javascript
+- ✅ OK glimmer_javascript locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/glimmer_javascript
+- ✅ OK glimmer_typescript highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/glimmer_typescript
+- ✅ OK glimmer_typescript indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/glimmer_typescript
+- ✅ OK glimmer_typescript injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/glimmer_typescript
+- ✅ OK glsl            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/glsl
+- ✅ OK glsl            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/glsl
+- ✅ OK glsl            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/glsl
+- ✅ OK glsl            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/glsl
+- ✅ OK glsl            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/glsl
+- ✅ OK gn              folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gn
+- ✅ OK gn              highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gn
+- ✅ OK gn              indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gn
+- ✅ OK gn              injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gn
+- ✅ OK gn              locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gn
+- ✅ OK gnuplot         highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gnuplot
+- ✅ OK gnuplot         injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gnuplot
+- ✅ OK go              folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/go
+- ✅ OK go              highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/go
+- ✅ OK go              indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/go
+- ✅ OK go              injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/go
+- ✅ OK go              locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/go
+- ✅ OK goctl           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/goctl
+- ✅ OK goctl           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/goctl
+- ✅ OK goctl           indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/goctl
+- ✅ OK goctl           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/goctl
+- ✅ OK godot_resource  folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/godot_resource
+- ✅ OK godot_resource  highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/godot_resource
+- ✅ OK godot_resource  injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/godot_resource
+- ✅ OK godot_resource  locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/godot_resource
+- ✅ OK gomod           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gomod
+- ✅ OK gomod           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gomod
+- ✅ OK gosum           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gosum
+- ✅ OK gotmpl          folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gotmpl
+- ✅ OK gotmpl          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gotmpl
+- ✅ OK gotmpl          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gotmpl
+- ✅ OK gotmpl          locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gotmpl
+- ✅ OK gowork          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gowork
+- ✅ OK gowork          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gowork
+- ✅ OK gpg             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gpg
+- ✅ OK gpg             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gpg
+- ✅ OK graphql         highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/graphql
+- ✅ OK graphql         indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/graphql
+- ✅ OK graphql         injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/graphql
+- ✅ OK gren            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gren
+- ✅ OK gren            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gren
+- ✅ OK groovy          folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/groovy
+- ✅ OK groovy          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/groovy
+- ✅ OK groovy          indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/groovy
+- ✅ OK groovy          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/groovy
+- ✅ OK groovy          locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/groovy
+- ✅ OK gstlaunch       highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/gstlaunch
+- ✅ OK hack            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hack
+- ✅ OK hack            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hack
+- ✅ OK hare            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hare
+- ✅ OK hare            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hare
+- ✅ OK hare            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hare
+- ✅ OK hare            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hare
+- ✅ OK hare            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hare
+- ✅ OK haskell         folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/haskell
+- ✅ OK haskell         highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/haskell
+- ✅ OK haskell         injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/haskell
+- ✅ OK haskell         locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/haskell
+- ✅ OK haskell_persistent folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/haskell_persistent
+- ✅ OK haskell_persistent highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/haskell_persistent
+- ✅ OK hcl             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hcl
+- ✅ OK hcl             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hcl
+- ✅ OK hcl             indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hcl
+- ✅ OK hcl             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hcl
+- ✅ OK heex            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/heex
+- ✅ OK heex            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/heex
+- ✅ OK heex            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/heex
+- ✅ OK heex            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/heex
+- ✅ OK heex            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/heex
+- ✅ OK helm            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/helm
+- ✅ OK helm            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/helm
+- ✅ OK helm            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/helm
+- ✅ OK helm            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/helm
+- ✅ OK hjson           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hjson
+- ✅ OK hjson           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hjson
+- ✅ OK hjson           indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hjson
+- ✅ OK hjson           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hjson
+- ✅ OK hjson           locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hjson
+- ✅ OK hlsl            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hlsl
+- ✅ OK hlsl            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hlsl
+- ✅ OK hlsl            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hlsl
+- ✅ OK hlsl            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hlsl
+- ✅ OK hlsl            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hlsl
+- ✅ OK hlsplaylist     highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hlsplaylist
+- ✅ OK hlsplaylist     injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hlsplaylist
+- ✅ OK hocon           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hocon
+- ✅ OK hocon           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hocon
+- ✅ OK hocon           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hocon
+- ✅ OK hoon            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hoon
+- ✅ OK hoon            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hoon
+- ✅ OK hoon            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hoon
+- ✅ OK hoon            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hoon
+- ✅ OK html            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/html
+- ✅ OK html            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/html
+- ✅ OK html            images          /Users/akito/.local/share/nvim/site/pack/packer/start/snacks.nvim/queries/html
+- ✅ OK html            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/html
+- ✅ OK html            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/html
+- ✅ OK html            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/html
+- ✅ OK html_tags       highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/html_tags
+- ✅ OK html_tags       indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/html_tags
+- ✅ OK html_tags       injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/html_tags
+- ✅ OK htmldjango      folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/htmldjango
+- ✅ OK htmldjango      highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/htmldjango
+- ✅ OK htmldjango      indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/htmldjango
+- ✅ OK htmldjango      injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/htmldjango
+- ✅ OK http            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/http
+- ✅ OK http            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/http
+- ✅ OK http            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/http
+- ✅ OK hurl            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hurl
+- ✅ OK hurl            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hurl
+- ✅ OK hurl            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hurl
+- ✅ OK hurl            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hurl
+- ✅ OK hyprlang        folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hyprlang
+- ✅ OK hyprlang        highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hyprlang
+- ✅ OK hyprlang        indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hyprlang
+- ✅ OK hyprlang        injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/hyprlang
+- ✅ OK idl             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/idl
+- ✅ OK idl             indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/idl
+- ✅ OK idl             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/idl
+- ✅ OK idris           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/idris
+- ✅ OK idris           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/idris
+- ✅ OK idris           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/idris
+- ✅ OK idris           locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/idris
+- ✅ OK ini             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ini
+- ✅ OK ini             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ini
+- ✅ OK ini             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ini
+- ✅ OK inko            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/inko
+- ✅ OK inko            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/inko
+- ✅ OK inko            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/inko
+- ✅ OK inko            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/inko
+- ✅ OK inko            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/inko
+- ✅ OK ipkg            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ipkg
+- ✅ OK ipkg            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ipkg
+- ✅ OK ipkg            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ipkg
+- ✅ OK ipkg            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ipkg
+- ✅ OK ipkg            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ipkg
+- ✅ OK ispc            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ispc
+- ✅ OK ispc            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ispc
+- ✅ OK ispc            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ispc
+- ✅ OK ispc            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ispc
+- ✅ OK ispc            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ispc
+- ✅ OK janet_simple    folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/janet_simple
+- ✅ OK janet_simple    highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/janet_simple
+- ✅ OK janet_simple    injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/janet_simple
+- ✅ OK janet_simple    locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/janet_simple
+- ✅ OK java            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/java
+- ✅ OK java            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/java
+- ✅ OK java            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/java
+- ✅ OK java            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/java
+- ✅ OK java            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/java
+- ✅ OK javadoc         highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/javadoc
+- ✅ OK javadoc         indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/javadoc
+- ✅ OK javadoc         injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/javadoc
+- ✅ OK javascript      folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/javascript
+- ✅ OK javascript      highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/javascript
+- ✅ OK javascript      highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/catppuccin/after/queries/javascript
+- ✅ OK javascript      images          /Users/akito/.local/share/nvim/site/pack/packer/start/snacks.nvim/queries/javascript
+- ✅ OK javascript      indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/javascript
+- ✅ OK javascript      injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/javascript
+- ✅ OK javascript      locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/javascript
+- ✅ OK jinja           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/jinja
+- ✅ OK jinja           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/jinja
+- ✅ OK jinja_inline    highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/jinja_inline
+- ✅ OK jinja_inline    injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/jinja_inline
+- ✅ OK jq              highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/jq
+- ✅ OK jq              injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/jq
+- ✅ OK jq              locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/jq
+- ✅ OK jsdoc           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/jsdoc
+- ✅ OK json            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/json
+- ✅ OK json            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/json
+- ✅ OK json            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/json
+- ✅ OK json            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/json
+- ✅ OK json5           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/json5
+- ✅ OK json5           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/json5
+- ✅ OK jsonc           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/jsonc
+- ✅ OK jsonc           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/jsonc
+- ✅ OK jsonc           indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/jsonc
+- ✅ OK jsonc           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/jsonc
+- ✅ OK jsonc           locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/jsonc
+- ✅ OK jsonnet         folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/jsonnet
+- ✅ OK jsonnet         highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/jsonnet
+- ✅ OK jsonnet         injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/jsonnet
+- ✅ OK jsonnet         locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/jsonnet
+- ✅ OK jsx             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/jsx
+- ✅ OK jsx             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/jsx
+- ✅ OK jsx             indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/jsx
+- ✅ OK jsx             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/jsx
+- ✅ OK julia           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/julia
+- ✅ OK julia           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/julia
+- ✅ OK julia           indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/julia
+- ✅ OK julia           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/julia
+- ✅ OK julia           locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/julia
+- ✅ OK just            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/just
+- ✅ OK just            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/just
+- ✅ OK just            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/just
+- ✅ OK just            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/just
+- ✅ OK just            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/just
+- ✅ OK kcl             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/kcl
+- ✅ OK kcl             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/kcl
+- ✅ OK kcl             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/kcl
+- ✅ OK kconfig         folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/kconfig
+- ✅ OK kconfig         highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/kconfig
+- ✅ OK kconfig         indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/kconfig
+- ✅ OK kconfig         injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/kconfig
+- ✅ OK kconfig         locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/kconfig
+- ✅ OK kdl             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/kdl
+- ✅ OK kdl             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/kdl
+- ✅ OK kdl             indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/kdl
+- ✅ OK kdl             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/kdl
+- ✅ OK kdl             locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/kdl
+- ✅ OK kotlin          folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/kotlin
+- ✅ OK kotlin          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/kotlin
+- ✅ OK kotlin          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/kotlin
+- ✅ OK kotlin          locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/kotlin
+- ✅ OK koto            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/koto
+- ✅ OK koto            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/koto
+- ✅ OK koto            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/koto
+- ✅ OK koto            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/koto
+- ✅ OK kusto           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/kusto
+- ✅ OK kusto           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/kusto
+- ✅ OK lalrpop         folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/lalrpop
+- ✅ OK lalrpop         highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/lalrpop
+- ✅ OK lalrpop         injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/lalrpop
+- ✅ OK lalrpop         locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/lalrpop
+- ✅ OK latex           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/latex
+- ✅ OK latex           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/latex
+- ✅ OK latex           images          /Users/akito/.local/share/nvim/site/pack/packer/start/snacks.nvim/queries/latex
+- ✅ OK latex           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/latex
+- ✅ OK ledger          folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ledger
+- ✅ OK ledger          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ledger
+- ✅ OK ledger          indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ledger
+- ✅ OK ledger          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ledger
+- ✅ OK leo             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/leo
+- ✅ OK leo             indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/leo
+- ✅ OK leo             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/leo
+- ✅ OK linkerscript    folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/linkerscript
+- ✅ OK linkerscript    highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/linkerscript
+- ✅ OK linkerscript    indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/linkerscript
+- ✅ OK linkerscript    injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/linkerscript
+- ✅ OK linkerscript    locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/linkerscript
+- ✅ OK liquid          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/liquid
+- ✅ OK liquid          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/liquid
+- ✅ OK liquidsoap      folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/liquidsoap
+- ✅ OK liquidsoap      highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/liquidsoap
+- ✅ OK liquidsoap      indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/liquidsoap
+- ✅ OK liquidsoap      injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/liquidsoap
+- ✅ OK liquidsoap      locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/liquidsoap
+- ✅ OK llvm            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/llvm
+- ✅ OK llvm            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/llvm
+- ✅ OK lua             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/lua
+- ✅ OK lua             folds           /opt/homebrew/Cellar/neovim/HEAD-1355640/share/nvim/runtime/queries/lua
+- ✅ OK lua             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/lua
+- ✅ OK lua             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/snacks.nvim/queries/lua
+- ✅ OK lua             highlights      /opt/homebrew/Cellar/neovim/HEAD-1355640/share/nvim/runtime/queries/lua
+- ✅ OK lua             indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/lua
+- ✅ OK lua             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/lua
+- ✅ OK lua             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/snacks.nvim/queries/lua
+- ✅ OK lua             injections      /opt/homebrew/Cellar/neovim/HEAD-1355640/share/nvim/runtime/queries/lua
+- ✅ OK lua             locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/lua
+- ✅ OK luadoc          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/luadoc
+- ✅ OK luap            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/luap
+- ✅ OK luau            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/luau
+- ✅ OK luau            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/luau
+- ✅ OK luau            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/luau
+- ✅ OK luau            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/luau
+- ✅ OK luau            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/luau
+- ✅ OK m68k            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/m68k
+- ✅ OK m68k            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/m68k
+- ✅ OK m68k            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/m68k
+- ✅ OK m68k            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/m68k
+- ✅ OK make            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/make
+- ✅ OK make            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/make
+- ✅ OK make            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/make
+- ✅ OK markdown        folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/markdown
+- ✅ OK markdown        folds           /opt/homebrew/Cellar/neovim/HEAD-1355640/share/nvim/runtime/queries/markdown
+- ✅ OK markdown        highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/markdown
+- ✅ OK markdown        highlights      /opt/homebrew/Cellar/neovim/HEAD-1355640/share/nvim/runtime/queries/markdown
+- ✅ OK markdown        images          /Users/akito/.local/share/nvim/site/pack/packer/start/snacks.nvim/queries/markdown
+- ✅ OK markdown        indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/markdown
+- ✅ OK markdown        injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/markdown
+- ✅ OK markdown        injections      /Users/akito/.local/share/nvim/site/pack/packer/start/snacks.nvim/queries/markdown
+- ✅ OK markdown        injections      /opt/homebrew/Cellar/neovim/HEAD-1355640/share/nvim/runtime/queries/markdown
+- ✅ OK markdown_inline highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/markdown_inline
+- ✅ OK markdown_inline highlights      /opt/homebrew/Cellar/neovim/HEAD-1355640/share/nvim/runtime/queries/markdown_inline
+- ✅ OK markdown_inline images          /Users/akito/.local/share/nvim/site/pack/packer/start/snacks.nvim/queries/markdown_inline
+- ✅ OK markdown_inline injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/markdown_inline
+- ✅ OK markdown_inline injections      /opt/homebrew/Cellar/neovim/HEAD-1355640/share/nvim/runtime/queries/markdown_inline
+- ✅ OK matlab          folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/matlab
+- ✅ OK matlab          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/matlab
+- ✅ OK matlab          indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/matlab
+- ✅ OK matlab          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/matlab
+- ✅ OK matlab          locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/matlab
+- ✅ OK menhir          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/menhir
+- ✅ OK menhir          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/menhir
+- ✅ OK mermaid         folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/mermaid
+- ✅ OK mermaid         highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/mermaid
+- ✅ OK mermaid         indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/mermaid
+- ✅ OK mermaid         injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/mermaid
+- ✅ OK meson           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/meson
+- ✅ OK meson           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/meson
+- ✅ OK meson           indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/meson
+- ✅ OK meson           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/meson
+- ✅ OK mlir            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/mlir
+- ✅ OK mlir            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/mlir
+- ✅ OK mlir            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/mlir
+- ✅ OK muttrc          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/muttrc
+- ✅ OK muttrc          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/muttrc
+- ✅ OK nasm            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/nasm
+- ✅ OK nasm            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/nasm
+- ✅ OK nginx           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/nginx
+- ✅ OK nginx           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/nginx
+- ✅ OK nginx           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/nginx
+- ✅ OK nickel          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/nickel
+- ✅ OK nickel          indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/nickel
+- ✅ OK nickel          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/nickel
+- ✅ OK nim             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/nim
+- ✅ OK nim             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/nim
+- ✅ OK nim             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/nim
+- ✅ OK nim             locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/nim
+- ✅ OK nim_format_string highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/nim_format_string
+- ✅ OK nim_format_string injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/nim_format_string
+- ✅ OK ninja           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ninja
+- ✅ OK ninja           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ninja
+- ✅ OK ninja           indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ninja
+- ✅ OK ninja           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ninja
+- ✅ OK nix             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/nix
+- ✅ OK nix             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/nix
+- ✅ OK nix             indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/nix
+- ✅ OK nix             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/nix
+- ✅ OK nix             locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/nix
+- ✅ OK norg            images          /Users/akito/.local/share/nvim/site/pack/packer/start/snacks.nvim/queries/norg
+- ✅ OK nqc             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/nqc
+- ✅ OK nqc             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/nqc
+- ✅ OK nqc             indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/nqc
+- ✅ OK nqc             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/nqc
+- ✅ OK nqc             locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/nqc
+- ✅ OK nu              folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/nu
+- ✅ OK nu              highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/nu
+- ✅ OK nu              indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/nu
+- ✅ OK nu              injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/nu
+- ✅ OK objc            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/objc
+- ✅ OK objc            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/objc
+- ✅ OK objc            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/objc
+- ✅ OK objc            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/objc
+- ✅ OK objc            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/objc
+- ✅ OK objdump         highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/objdump
+- ✅ OK objdump         injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/objdump
+- ✅ OK ocaml           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ocaml
+- ✅ OK ocaml           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ocaml
+- ✅ OK ocaml           indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ocaml
+- ✅ OK ocaml           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ocaml
+- ✅ OK ocaml           locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ocaml
+- ✅ OK ocaml_interface folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ocaml_interface
+- ✅ OK ocaml_interface highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ocaml_interface
+- ✅ OK ocaml_interface indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ocaml_interface
+- ✅ OK ocaml_interface injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ocaml_interface
+- ✅ OK ocaml_interface locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ocaml_interface
+- ✅ OK ocamllex        highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ocamllex
+- ✅ OK ocamllex        injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ocamllex
+- ✅ OK odin            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/odin
+- ✅ OK odin            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/odin
+- ✅ OK odin            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/odin
+- ✅ OK odin            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/odin
+- ✅ OK odin            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/odin
+- ✅ OK pascal          folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/pascal
+- ✅ OK pascal          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/pascal
+- ✅ OK pascal          indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/pascal
+- ✅ OK pascal          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/pascal
+- ✅ OK pascal          locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/pascal
+- ✅ OK passwd          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/passwd
+- ✅ OK pem             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/pem
+- ✅ OK pem             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/pem
+- ✅ OK pem             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/pem
+- ✅ OK perl            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/perl
+- ✅ OK perl            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/perl
+- ✅ OK perl            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/perl
+- ✅ OK php             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/php
+- ✅ OK php             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/php
+- ✅ OK php             indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/php
+- ✅ OK php             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/php
+- ✅ OK php             locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/php
+- ✅ OK php_only        folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/php_only
+- ✅ OK php_only        highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/php_only
+- ✅ OK php_only        indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/php_only
+- ✅ OK php_only        injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/php_only
+- ✅ OK php_only        locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/php_only
+- ✅ OK phpdoc          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/phpdoc
+- ✅ OK pioasm          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/pioasm
+- ✅ OK pioasm          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/pioasm
+- ✅ OK po              folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/po
+- ✅ OK po              highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/po
+- ✅ OK po              injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/po
+- ✅ OK pod             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/pod
+- ✅ OK poe_filter      folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/poe_filter
+- ✅ OK poe_filter      highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/poe_filter
+- ✅ OK poe_filter      indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/poe_filter
+- ✅ OK poe_filter      injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/poe_filter
+- ✅ OK pony            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/pony
+- ✅ OK pony            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/pony
+- ✅ OK pony            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/pony
+- ✅ OK pony            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/pony
+- ✅ OK pony            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/pony
+- ✅ OK powershell      folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/powershell
+- ✅ OK powershell      highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/powershell
+- ✅ OK powershell      indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/powershell
+- ✅ OK powershell      injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/powershell
+- ✅ OK powershell      locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/powershell
+- ✅ OK printf          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/printf
+- ✅ OK prisma          folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/prisma
+- ✅ OK prisma          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/prisma
+- ✅ OK prisma          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/prisma
+- ✅ OK problog         folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/problog
+- ✅ OK problog         highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/problog
+- ✅ OK problog         indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/problog
+- ✅ OK problog         injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/problog
+- ✅ OK prolog          folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/prolog
+- ✅ OK prolog          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/prolog
+- ✅ OK prolog          indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/prolog
+- ✅ OK prolog          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/prolog
+- ✅ OK promql          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/promql
+- ✅ OK promql          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/promql
+- ✅ OK properties      highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/properties
+- ✅ OK properties      injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/properties
+- ✅ OK properties      locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/properties
+- ✅ OK proto           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/proto
+- ✅ OK proto           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/proto
+- ✅ OK proto           indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/proto
+- ✅ OK proto           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/proto
+- ✅ OK prql            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/prql
+- ✅ OK prql            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/prql
+- ✅ OK psv             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/psv
+- ✅ OK pug             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/pug
+- ✅ OK pug             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/pug
+- ✅ OK puppet          folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/puppet
+- ✅ OK puppet          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/puppet
+- ✅ OK puppet          indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/puppet
+- ✅ OK puppet          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/puppet
+- ✅ OK puppet          locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/puppet
+- ✅ OK purescript      highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/purescript
+- ✅ OK purescript      injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/purescript
+- ✅ OK purescript      locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/purescript
+- ✅ OK pymanifest      highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/pymanifest
+- ✅ OK pymanifest      injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/pymanifest
+- ✅ OK python          folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/python
+- ✅ OK python          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/python
+- ✅ OK python          indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/python
+- ✅ OK python          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/python
+- ✅ OK python          locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/python
+- ✅ OK ql              folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ql
+- ✅ OK ql              highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ql
+- ✅ OK ql              indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ql
+- ✅ OK ql              injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ql
+- ✅ OK ql              locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ql
+- ✅ OK qmldir          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/qmldir
+- ✅ OK qmldir          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/qmldir
+- ✅ OK qmljs           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/qmljs
+- ✅ OK qmljs           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/qmljs
+- ✅ OK qmljs           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/qmljs
+- ✅ OK query           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/query
+- ✅ OK query           folds           /opt/homebrew/Cellar/neovim/HEAD-1355640/share/nvim/runtime/queries/query
+- ✅ OK query           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/query
+- ✅ OK query           highlights      /opt/homebrew/Cellar/neovim/HEAD-1355640/share/nvim/runtime/queries/query
+- ✅ OK query           indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/query
+- ✅ OK query           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/query
+- ✅ OK query           locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/query
+- ✅ OK r               highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/r
+- ✅ OK r               indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/r
+- ✅ OK r               injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/r
+- ✅ OK r               locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/r
+- ✅ OK racket          folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/racket
+- ✅ OK racket          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/racket
+- ✅ OK racket          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/racket
+- ✅ OK ralph           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ralph
+- ✅ OK ralph           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ralph
+- ✅ OK rasi            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/rasi
+- ✅ OK rasi            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/rasi
+- ✅ OK rasi            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/rasi
+- ✅ OK rasi            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/rasi
+- ✅ OK rasi            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/rasi
+- ✅ OK razor           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/razor
+- ✅ OK razor           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/razor
+- ✅ OK razor           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/razor
+- ✅ OK rbs             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/rbs
+- ✅ OK rbs             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/rbs
+- ✅ OK rbs             indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/rbs
+- ✅ OK rbs             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/rbs
+- ✅ OK re2c            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/re2c
+- ✅ OK re2c            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/re2c
+- ✅ OK re2c            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/re2c
+- ✅ OK re2c            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/re2c
+- ✅ OK re2c            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/re2c
+- ✅ OK readline        folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/readline
+- ✅ OK readline        highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/readline
+- ✅ OK readline        indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/readline
+- ✅ OK readline        injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/readline
+- ✅ OK regex           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/regex
+- ✅ OK rego            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/rego
+- ✅ OK rego            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/rego
+- ✅ OK requirements    highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/requirements
+- ✅ OK requirements    injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/requirements
+- ✅ OK rescript        folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/rescript
+- ✅ OK rescript        highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/rescript
+- ✅ OK rescript        indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/rescript
+- ✅ OK rescript        injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/rescript
+- ✅ OK rescript        locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/rescript
+- ✅ OK rnoweb          folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/rnoweb
+- ✅ OK rnoweb          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/rnoweb
+- ✅ OK rnoweb          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/rnoweb
+- ✅ OK robot           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/robot
+- ✅ OK robot           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/robot
+- ✅ OK robot           indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/robot
+- ✅ OK robot           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/robot
+- ✅ OK robots          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/robots
+- ✅ OK robots          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/robots
+- ✅ OK roc             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/roc
+- ✅ OK roc             indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/roc
+- ✅ OK roc             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/roc
+- ✅ OK roc             locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/roc
+- ✅ OK ron             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ron
+- ✅ OK ron             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ron
+- ✅ OK ron             indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ron
+- ✅ OK ron             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ron
+- ✅ OK ron             locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ron
+- ✅ OK rst             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/rst
+- ✅ OK rst             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/rst
+- ✅ OK rst             locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/rst
+- ✅ OK ruby            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ruby
+- ✅ OK ruby            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ruby
+- ✅ OK ruby            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ruby
+- ✅ OK ruby            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ruby
+- ✅ OK ruby            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ruby
+- ✅ OK runescript      highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/runescript
+- ✅ OK runescript      injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/runescript
+- ✅ OK rust            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/rust
+- ✅ OK rust            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/rust
+- ✅ OK rust            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/rust
+- ✅ OK rust            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/rust
+- ✅ OK rust            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/rust
+- ✅ OK scala           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/scala
+- ✅ OK scala           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/scala
+- ✅ OK scala           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/scala
+- ✅ OK scala           locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/scala
+- ✅ OK scfg            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/scfg
+- ✅ OK scfg            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/scfg
+- ✅ OK scheme          folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/scheme
+- ✅ OK scheme          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/scheme
+- ✅ OK scheme          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/scheme
+- ✅ OK scss            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/scss
+- ✅ OK scss            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/scss
+- ✅ OK scss            images          /Users/akito/.local/share/nvim/site/pack/packer/start/snacks.nvim/queries/scss
+- ✅ OK scss            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/scss
+- ✅ OK scss            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/scss
+- ✅ OK sflog           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/sflog
+- ✅ OK slang           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/slang
+- ✅ OK slang           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/slang
+- ✅ OK slang           indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/slang
+- ✅ OK slang           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/slang
+- ✅ OK slang           locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/slang
+- ✅ OK slim            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/slim
+- ✅ OK slim            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/slim
+- ✅ OK slim            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/slim
+- ✅ OK slim            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/slim
+- ✅ OK slim            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/slim
+- ✅ OK slint           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/slint
+- ✅ OK slint           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/slint
+- ✅ OK slint           indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/slint
+- ✅ OK slint           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/slint
+- ✅ OK slint           locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/slint
+- ✅ OK smali           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/smali
+- ✅ OK smali           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/smali
+- ✅ OK smali           indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/smali
+- ✅ OK smali           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/smali
+- ✅ OK smali           locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/smali
+- ✅ OK smithy          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/smithy
+- ✅ OK smithy          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/smithy
+- ✅ OK snakemake       folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/snakemake
+- ✅ OK snakemake       highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/snakemake
+- ✅ OK snakemake       indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/snakemake
+- ✅ OK snakemake       injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/snakemake
+- ✅ OK snakemake       locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/snakemake
+- ✅ OK solidity        folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/solidity
+- ✅ OK solidity        highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/solidity
+- ✅ OK solidity        injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/solidity
+- ✅ OK soql            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/soql
+- ✅ OK sosl            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/sosl
+- ✅ OK sourcepawn      highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/sourcepawn
+- ✅ OK sourcepawn      injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/sourcepawn
+- ✅ OK sourcepawn      locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/sourcepawn
+- ✅ OK sparql          folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/sparql
+- ✅ OK sparql          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/sparql
+- ✅ OK sparql          indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/sparql
+- ✅ OK sparql          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/sparql
+- ✅ OK sparql          locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/sparql
+- ✅ OK sql             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/sql
+- ✅ OK sql             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/sql
+- ✅ OK sql             indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/sql
+- ✅ OK sql             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/sql
+- ✅ OK squirrel        folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/squirrel
+- ✅ OK squirrel        highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/squirrel
+- ✅ OK squirrel        indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/squirrel
+- ✅ OK squirrel        injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/squirrel
+- ✅ OK squirrel        locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/squirrel
+- ✅ OK ssh_config      folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ssh_config
+- ✅ OK ssh_config      highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ssh_config
+- ✅ OK ssh_config      indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ssh_config
+- ✅ OK ssh_config      injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ssh_config
+- ✅ OK ssh_config      locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ssh_config
+- ✅ OK starlark        folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/starlark
+- ✅ OK starlark        highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/starlark
+- ✅ OK starlark        indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/starlark
+- ✅ OK starlark        injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/starlark
+- ✅ OK starlark        locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/starlark
+- ✅ OK strace          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/strace
+- ✅ OK strace          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/strace
+- ✅ OK styled          folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/styled
+- ✅ OK styled          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/styled
+- ✅ OK styled          indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/styled
+- ✅ OK styled          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/styled
+- ✅ OK supercollider   folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/supercollider
+- ✅ OK supercollider   highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/supercollider
+- ✅ OK supercollider   indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/supercollider
+- ✅ OK supercollider   injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/supercollider
+- ✅ OK supercollider   locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/supercollider
+- ✅ OK superhtml       highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/superhtml
+- ✅ OK superhtml       injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/superhtml
+- ✅ OK surface         folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/surface
+- ✅ OK surface         highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/surface
+- ✅ OK surface         indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/surface
+- ✅ OK surface         injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/surface
+- ✅ OK svelte          folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/svelte
+- ✅ OK svelte          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/svelte
+- ✅ OK svelte          images          /Users/akito/.local/share/nvim/site/pack/packer/start/snacks.nvim/queries/svelte
+- ✅ OK svelte          indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/svelte
+- ✅ OK svelte          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/svelte
+- ✅ OK svelte          locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/svelte
+- ✅ OK sway            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/sway
+- ✅ OK sway            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/sway
+- ✅ OK sway            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/sway
+- ✅ OK sway            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/sway
+- ✅ OK sway            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/sway
+- ✅ OK swift           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/swift
+- ✅ OK swift           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/swift
+- ✅ OK swift           indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/swift
+- ✅ OK swift           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/swift
+- ✅ OK swift           locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/swift
+- ✅ OK sxhkdrc         folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/sxhkdrc
+- ✅ OK sxhkdrc         highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/sxhkdrc
+- ✅ OK sxhkdrc         injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/sxhkdrc
+- ✅ OK systemtap       folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/systemtap
+- ✅ OK systemtap       highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/systemtap
+- ✅ OK systemtap       injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/systemtap
+- ✅ OK systemtap       locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/systemtap
+- ✅ OK t32             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/t32
+- ✅ OK t32             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/t32
+- ✅ OK t32             indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/t32
+- ✅ OK t32             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/t32
+- ✅ OK t32             locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/t32
+- ✅ OK tablegen        folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tablegen
+- ✅ OK tablegen        highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tablegen
+- ✅ OK tablegen        indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tablegen
+- ✅ OK tablegen        injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tablegen
+- ✅ OK tablegen        locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tablegen
+- ✅ OK tact            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tact
+- ✅ OK tact            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tact
+- ✅ OK tact            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tact
+- ✅ OK tact            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tact
+- ✅ OK tact            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tact
+- ✅ OK tcl             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tcl
+- ✅ OK tcl             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tcl
+- ✅ OK tcl             indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tcl
+- ✅ OK tcl             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tcl
+- ✅ OK teal            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/teal
+- ✅ OK teal            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/teal
+- ✅ OK teal            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/teal
+- ✅ OK teal            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/teal
+- ✅ OK teal            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/teal
+- ✅ OK templ           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/templ
+- ✅ OK templ           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/templ
+- ✅ OK templ           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/templ
+- ✅ OK tera            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tera
+- ✅ OK tera            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tera
+- ✅ OK terraform       folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/terraform
+- ✅ OK terraform       highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/terraform
+- ✅ OK terraform       indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/terraform
+- ✅ OK terraform       injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/terraform
+- ✅ OK textproto       folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/textproto
+- ✅ OK textproto       highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/textproto
+- ✅ OK textproto       indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/textproto
+- ✅ OK textproto       injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/textproto
+- ✅ OK thrift          folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/thrift
+- ✅ OK thrift          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/thrift
+- ✅ OK thrift          indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/thrift
+- ✅ OK thrift          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/thrift
+- ✅ OK thrift          locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/thrift
+- ✅ OK tiger           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tiger
+- ✅ OK tiger           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tiger
+- ✅ OK tiger           indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tiger
+- ✅ OK tiger           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tiger
+- ✅ OK tiger           locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tiger
+- ✅ OK tlaplus         folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tlaplus
+- ✅ OK tlaplus         highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tlaplus
+- ✅ OK tlaplus         injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tlaplus
+- ✅ OK tlaplus         locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tlaplus
+- ✅ OK tmux            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tmux
+- ✅ OK tmux            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tmux
+- ✅ OK todotxt         highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/todotxt
+- ✅ OK toml            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/toml
+- ✅ OK toml            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/toml
+- ✅ OK toml            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/toml
+- ✅ OK toml            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/toml
+- ✅ OK toml            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/toml
+- ✅ OK tsv             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tsv
+- ✅ OK tsx             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tsx
+- ✅ OK tsx             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tsx
+- ✅ OK tsx             images          /Users/akito/.local/share/nvim/site/pack/packer/start/snacks.nvim/queries/tsx
+- ✅ OK tsx             indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tsx
+- ✅ OK tsx             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tsx
+- ✅ OK tsx             locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/tsx
+- ✅ OK turtle          folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/turtle
+- ✅ OK turtle          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/turtle
+- ✅ OK turtle          indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/turtle
+- ✅ OK turtle          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/turtle
+- ✅ OK turtle          locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/turtle
+- ✅ OK twig            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/twig
+- ✅ OK twig            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/twig
+- ✅ OK typescript      folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/typescript
+- ✅ OK typescript      highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/typescript
+- ✅ OK typescript      highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/catppuccin/after/queries/typescript
+- ✅ OK typescript      indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/typescript
+- ✅ OK typescript      injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/typescript
+- ✅ OK typescript      locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/typescript
+- ✅ OK typespec        highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/typespec
+- ✅ OK typespec        indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/typespec
+- ✅ OK typespec        injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/typespec
+- ✅ OK typoscript      folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/typoscript
+- ✅ OK typoscript      highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/typoscript
+- ✅ OK typoscript      indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/typoscript
+- ✅ OK typoscript      injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/typoscript
+- ✅ OK typst           folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/typst
+- ✅ OK typst           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/typst
+- ✅ OK typst           images          /Users/akito/.local/share/nvim/site/pack/packer/start/snacks.nvim/queries/typst
+- ✅ OK typst           indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/typst
+- ✅ OK typst           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/typst
+- ✅ OK udev            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/udev
+- ✅ OK udev            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/udev
+- ✅ OK udev            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/udev
+- ✅ OK ungrammar       folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ungrammar
+- ✅ OK ungrammar       highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ungrammar
+- ✅ OK ungrammar       indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ungrammar
+- ✅ OK ungrammar       injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ungrammar
+- ✅ OK ungrammar       locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ungrammar
+- ✅ OK unison          folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/unison
+- ✅ OK unison          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/unison
+- ✅ OK unison          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/unison
+- ✅ OK usd             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/usd
+- ✅ OK usd             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/usd
+- ✅ OK usd             indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/usd
+- ✅ OK usd             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/usd
+- ✅ OK usd             locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/usd
+- ✅ OK uxntal          folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/uxntal
+- ✅ OK uxntal          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/uxntal
+- ✅ OK uxntal          indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/uxntal
+- ✅ OK uxntal          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/uxntal
+- ✅ OK uxntal          locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/uxntal
+- ✅ OK v               folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/v
+- ✅ OK v               highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/v
+- ✅ OK v               indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/v
+- ✅ OK v               injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/v
+- ✅ OK v               locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/v
+- ✅ OK vala            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/vala
+- ✅ OK vala            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/vala
+- ✅ OK vala            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/vala
+- ✅ OK vento           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/vento
+- ✅ OK vento           injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/vento
+- ✅ OK verilog         folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/verilog
+- ✅ OK verilog         highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/verilog
+- ✅ OK verilog         injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/verilog
+- ✅ OK vhdl            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/vhdl
+- ✅ OK vhdl            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/vhdl
+- ✅ OK vhdl            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/vhdl
+- ✅ OK vhs             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/vhs
+- ✅ OK vhs             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/vhs
+- ✅ OK vim             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/vim
+- ✅ OK vim             folds           /opt/homebrew/Cellar/neovim/HEAD-1355640/share/nvim/runtime/queries/vim
+- ✅ OK vim             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/vim
+- ✅ OK vim             highlights      /opt/homebrew/Cellar/neovim/HEAD-1355640/share/nvim/runtime/queries/vim
+- ✅ OK vim             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/vim
+- ✅ OK vim             injections      /opt/homebrew/Cellar/neovim/HEAD-1355640/share/nvim/runtime/queries/vim
+- ✅ OK vim             locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/vim
+- ✅ OK vimdoc          highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/vimdoc
+- ✅ OK vimdoc          highlights      /opt/homebrew/Cellar/neovim/HEAD-1355640/share/nvim/runtime/queries/vimdoc
+- ✅ OK vimdoc          injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/vimdoc
+- ✅ OK vimdoc          injections      /opt/homebrew/Cellar/neovim/HEAD-1355640/share/nvim/runtime/queries/vimdoc
+- ✅ OK vrl             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/vrl
+- ✅ OK vrl             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/vrl
+- ✅ OK vrl             indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/vrl
+- ✅ OK vrl             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/vrl
+- ✅ OK vrl             locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/vrl
+- ✅ OK vue             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/vue
+- ✅ OK vue             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/vue
+- ✅ OK vue             images          /Users/akito/.local/share/nvim/site/pack/packer/start/snacks.nvim/queries/vue
+- ✅ OK vue             indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/vue
+- ✅ OK vue             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/vue
+- ✅ OK wgsl            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/wgsl
+- ✅ OK wgsl            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/wgsl
+- ✅ OK wgsl            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/wgsl
+- ✅ OK wgsl            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/wgsl
+- ✅ OK wgsl_bevy       folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/wgsl_bevy
+- ✅ OK wgsl_bevy       highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/wgsl_bevy
+- ✅ OK wgsl_bevy       indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/wgsl_bevy
+- ✅ OK wing            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/wing
+- ✅ OK wing            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/wing
+- ✅ OK wing            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/wing
+- ✅ OK wing            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/wing
+- ✅ OK wit             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/wit
+- ✅ OK wit             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/wit
+- ✅ OK wit             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/wit
+- ✅ OK xcompose        highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/xcompose
+- ✅ OK xcompose        injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/xcompose
+- ✅ OK xcompose        locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/xcompose
+- ✅ OK xml             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/xml
+- ✅ OK xml             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/xml
+- ✅ OK xml             indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/xml
+- ✅ OK xml             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/xml
+- ✅ OK xml             locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/xml
+- ✅ OK xresources      folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/xresources
+- ✅ OK xresources      highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/xresources
+- ✅ OK xresources      injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/xresources
+- ✅ OK xresources      locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/xresources
+- ✅ OK yaml            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/yaml
+- ✅ OK yaml            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/yaml
+- ✅ OK yaml            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/yaml
+- ✅ OK yaml            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/yaml
+- ✅ OK yaml            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/yaml
+- ✅ OK yang            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/yang
+- ✅ OK yang            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/yang
+- ✅ OK yang            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/yang
+- ✅ OK yang            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/yang
+- ✅ OK yuck            folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/yuck
+- ✅ OK yuck            highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/yuck
+- ✅ OK yuck            indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/yuck
+- ✅ OK yuck            injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/yuck
+- ✅ OK yuck            locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/yuck
+- ✅ OK zathurarc       highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/zathurarc
+- ✅ OK zathurarc       injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/zathurarc
+- ✅ OK zig             folds           /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/zig
+- ✅ OK zig             highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/zig
+- ✅ OK zig             indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/zig
+- ✅ OK zig             injections      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/zig
+- ✅ OK zig             locals          /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/zig
+- ✅ OK ziggy           highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ziggy
+- ✅ OK ziggy           indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ziggy
+- ✅ OK ziggy_schema    highlights      /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ziggy_schema
+- ✅ OK ziggy_schema    indents         /Users/akito/.local/share/nvim/site/pack/packer/start/nvim-treesitter/queries/ziggy_schema
+
